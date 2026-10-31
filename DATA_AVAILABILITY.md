@@ -1,6 +1,6 @@
 # Manuscript data availability statement
 
-Publication status: not yet formally published; revision2 manuscript dated 16 October 2026.
+Publication status: not yet formally published; manuscript dated 16 October 2026.
 
 Repository: https://github.com/NickYWng/jasa-drone-musical-tones-data
 

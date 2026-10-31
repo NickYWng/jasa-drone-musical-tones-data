@@ -13,7 +13,7 @@ def read(p):
 def main():
     parser=argparse.ArgumentParser();parser.add_argument('--output',type=Path,default=ROOT/'reproduced_figures');args=parser.parse_args();args.output.mkdir(parents=True,exist_ok=True)
     for number in range(5,8):
-        folder=ROOT/f'figure_{number:02d}';meta=read(folder/'conditions.csv')
+        folder=ROOT/f'figures/figure_{number:02d}';meta=read(folder/'conditions.csv')
         fig,axes=plt.subplots(3 if len(meta)==9 else 2,3,figsize=(12,8),squeeze=False,layout='constrained')
         for ax,row in zip(axes.flat,meta):
             d=np.load(folder/f'{row["condition"]}_spectrogram.npz')
@@ -25,7 +25,7 @@ def main():
         fig.colorbar(im,ax=list(axes.flat),label='A-weighted PSD level (dBA/Hz)')
         fig.savefig(args.output/f'figure_{number:02d}.png',dpi=180);plt.close(fig)
     for number in range(8,16):
-        folder=ROOT/f'figure_{number:02d}';summary=read(folder/'summary.csv')
+        folder=ROOT/f'figures/figure_{number:02d}';summary=read(folder/'summary.csv')
         fig,axes=plt.subplots(1,3,figsize=(14,4),layout='constrained')
         for ax,cat in zip(axes,['drone1','drone2','violin']):
             rows=[r for r in summary if r['category']==cat];traj=read(folder/f'{cat}_trajectories.csv.gz');stats=[]
@@ -42,7 +42,7 @@ def main():
         axes[-1].legend(fontsize=8);fig.savefig(args.output/f'figure_{number:02d}.png',dpi=180);plt.close(fig)
     fig,axes=plt.subplots(1,3,figsize=(12,4),layout='constrained')
     for ax,cat in zip(axes,['drone1','drone2','violin']):
-        rows=read(ROOT/f'figure_16/{cat}_pearson.csv');r=np.array([[float(row[k]) for k in ['PAZ','PAM','PAD']] for row in rows])
+        rows=read(ROOT/f'figures/figure_16/{cat}_pearson.csv');r=np.array([[float(row[k]) for k in ['PAZ','PAM','PAD']] for row in rows])
         im=ax.imshow(r,vmin=-1,vmax=1,cmap='coolwarm');ax.set(xticks=range(3),yticks=range(3),xticklabels=['PAZ','PAM','PAD'],yticklabels=['PAZ','PAM','PAD'],title=cat)
         for i in range(3):
             for j in range(3):ax.text(j,i,f'{r[i,j]:.2f}',ha='center',va='center',color='white' if abs(r[i,j])>.55 else 'black')

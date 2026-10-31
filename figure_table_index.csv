@@ -1,19 +1,19 @@
 manuscript_item,directory,description,data_type,condition_or_value_count
-Figure 5,figure_05,A-weighted spectrograms: Drone 1,saved numerical matrices,9
-Figure 6,figure_06,A-weighted spectrograms: Drone 2,saved numerical matrices,9
-Figure 7,figure_07,A-weighted spectrograms: Violin,saved numerical matrices,5
-Figure 8,figure_08,Loudness,saved averages + recording-level trajectories,23
-Figure 9,figure_09,Sharpness,saved averages + recording-level trajectories,23
-Figure 10,figure_10,Roughness,saved averages + recording-level trajectories,23
-Figure 11,figure_11,Tonality,saved averages + recording-level trajectories,23
-Figure 12,figure_12,FluctuationStrength,saved averages + recording-level trajectories,23
-Figure 13,figure_13,PAZ,saved averages + recording-level trajectories,23
-Figure 14,figure_14,PAM,saved averages + recording-level trajectories,23
-Figure 15,figure_15,PAD,saved averages + recording-level trajectories,23
-Figure 16,figure_16,Pearson correlations,saved heatmap matrices + input condition means,3
-Table 1,table_01,Original A-weighted OASPL: Drone 1,verbatim revision2 table,27
-Table 2,table_02,Original A-weighted OASPL: Drone 2,verbatim revision2 table,27
-Table 3,table_03,Original A-weighted OASPL: Violin,verbatim revision2 table,15
-Table 4,table_04,Z-weighted minus A-weighted OASPL after normalization: Drone 1,verbatim revision2 table,27
-Table 5,table_05,Z-weighted minus A-weighted OASPL after normalization: Drone 2,verbatim revision2 table,27
-Table 6,table_06,Z-weighted minus A-weighted OASPL after normalization: Violin,verbatim revision2 table,15
+Figure 5,figures/figure_05,A-weighted spectrograms: Drone 1,saved numerical matrices,9
+Figure 6,figures/figure_06,A-weighted spectrograms: Drone 2,saved numerical matrices,9
+Figure 7,figures/figure_07,A-weighted spectrograms: Violin,saved numerical matrices,5
+Figure 8,figures/figure_08,Loudness,saved averages + recording-level trajectories,23
+Figure 9,figures/figure_09,Sharpness,saved averages + recording-level trajectories,23
+Figure 10,figures/figure_10,Roughness,saved averages + recording-level trajectories,23
+Figure 11,figures/figure_11,Tonality,saved averages + recording-level trajectories,23
+Figure 12,figures/figure_12,FluctuationStrength,saved averages + recording-level trajectories,23
+Figure 13,figures/figure_13,PAZ,saved averages + recording-level trajectories,23
+Figure 14,figures/figure_14,PAM,saved averages + recording-level trajectories,23
+Figure 15,figures/figure_15,PAD,saved averages + recording-level trajectories,23
+Figure 16,figures/figure_16,Pearson correlations,saved heatmap matrices + input condition means,3
+Table 1,tables/table_01,Original A-weighted OASPL: Drone 1,verbatim revision2 table,27
+Table 2,tables/table_02,Original A-weighted OASPL: Drone 2,verbatim revision2 table,27
+Table 3,tables/table_03,Original A-weighted OASPL: Violin,verbatim revision2 table,15
+Table 4,tables/table_04,Z-weighted minus A-weighted OASPL after normalization: Drone 1,verbatim revision2 table,27
+Table 5,tables/table_05,Z-weighted minus A-weighted OASPL after normalization: Drone 2,verbatim revision2 table,27
+Table 6,tables/table_06,Z-weighted minus A-weighted OASPL after normalization: Violin,verbatim revision2 table,15

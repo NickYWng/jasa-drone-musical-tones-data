@@ -1,6 +1,6 @@
 # Data for “Comparative Psychoacoustic Analysis of Drone Noise and Musical Tones”
 
-Numerical data supporting **Figures 5–16 and Tables I–VI** of the revision2 manuscript. Every figure and every table has its own directory. Figures 1–4 are excluded as requested.
+Numerical data supporting **Figures 5–16 and Tables I–VI** of the manuscript. Figure directories are grouped under `figures/`, and table directories under `tables/`; each figure and table retains its own subdirectory. Figures 1–4 are excluded as requested.
 
 ## Manuscript information
 
@@ -8,20 +8,20 @@ Numerical data supporting **Figures 5–16 and Tables I–VI** of the revision2 
 - **Authors:** Yinuo Wang and Xun Huang
 - **Affiliation:** Department of Aeronautics and Astronautics, State Key Laboratory of Turbulence and Complex Systems, School of Mechanics and Engineering Science, Peking University, Beijing, China
 - **Journal submitted to:** The Journal of the Acoustical Society of America (JASA)
-- **Version represented:** revision2; manuscript PDF dated **16 October 2026**
+- **Version represented:** manuscript PDF dated **16 October 2026**
 - **Publication status:** **Not yet formally published**, as confirmed by the author on 31 October 2026. No publication DOI, volume, issue or page/article number has been assigned in this repository.
 
 The [author's publication list](https://xunger99.github.io/xunger/papers.htm) lists the title under 2026; this is not used as evidence of formal publication. Update the citation when the publisher issues the final bibliographic record. The date above is the manuscript date, not a publication date.
 
 Suggested manuscript citation:
 
-> Wang, Y., and Huang, X. “Comparative Psychoacoustic Analysis of Drone Noise and Musical Tones.” Revision2 manuscript submitted to The Journal of the Acoustical Society of America, 16 October 2026. Not yet formally published.
+> Wang, Y., and Huang, X. “Comparative Psychoacoustic Analysis of Drone Noise and Musical Tones.” Manuscript submitted to The Journal of the Acoustical Society of America, 16 October 2026. Not yet formally published.
 
 Machine-readable references are provided in [citation.bib](citation.bib) and [CITATION.cff](CITATION.cff).
 
 ## Data availability
 
-The numerical data underlying Figures 5–16 and Tables I–VI of the revision2 manuscript are contained in this repository. They include A-weighted spectrogram matrices, recording-level and condition-averaged psychoacoustic time histories, boxplot summaries, annoyance-model correlation matrices and their input means, and the tabulated sound-pressure levels. Each figure/table directory documents the variables, units and provenance. Figures 1–4 and the original pressure-waveform recordings are outside the scope of this release.
+The numerical data underlying Figures 5–16 and Tables I–VI of the manuscript are contained in this repository. They include A-weighted spectrogram matrices, recording-level and condition-averaged psychoacoustic time histories, boxplot summaries, annoyance-model correlation matrices and their input means, and the tabulated sound-pressure levels. Each figure/table directory documents the variables, units and provenance. Figures 1–4 and the original pressure-waveform recordings are outside the scope of this release.
 
 Repository: **https://github.com/NickYWng/jasa-drone-musical-tones-data**. The manuscript-ready statement, including this public repository URL, is in [DATA_AVAILABILITY.md](DATA_AVAILABILITY.md).
 
@@ -29,24 +29,24 @@ Repository: **https://github.com/NickYWng/jasa-drone-musical-tones-data**. The m
 
 | Manuscript item | Directory | Numerical contents |
 | --- | --- | --- |
-| Figure 5 | [figure_05](figure_05) | Drone 1: 9 averaged A-weighted spectrograms |
-| Figure 6 | [figure_06](figure_06) | Drone 2: 9 averaged A-weighted spectrograms |
-| Figure 7 | [figure_07](figure_07) | Violin: 5 averaged A-weighted spectrograms |
-| Figure 8 | [figure_08](figure_08) | Loudness, sone |
-| Figure 9 | [figure_09](figure_09) | Sharpness, acum |
-| Figure 10 | [figure_10](figure_10) | Roughness, asper |
-| Figure 11 | [figure_11](figure_11) | Tonality, t.u. |
-| Figure 12 | [figure_12](figure_12) | Fluctuation strength, vacil |
-| Figure 13 | [figure_13](figure_13) | Zwicker and Fastl annoyance (PAZ) |
-| Figure 14 | [figure_14](figure_14) | More annoyance (PAM) |
-| Figure 15 | [figure_15](figure_15) | Di et al. annoyance (PAD) |
-| Figure 16 | [figure_16](figure_16) | Three condition-level Pearson matrices and their input means |
-| Table I | [table_01](table_01) | Original A-weighted OASPL, Drone 1 |
-| Table II | [table_02](table_02) | Original A-weighted OASPL, Drone 2 |
-| Table III | [table_03](table_03) | Original A-weighted OASPL, violin |
-| Table IV | [table_04](table_04) | Normalized recordings: LZ − LA, Drone 1 |
-| Table V | [table_05](table_05) | Normalized recordings: LZ − LA, Drone 2 |
-| Table VI | [table_06](table_06) | Normalized recordings: LZ − LA, violin |
+| Figure 5 | [figure_05](figures/figure_05) | Drone 1: 9 averaged A-weighted spectrograms |
+| Figure 6 | [figure_06](figures/figure_06) | Drone 2: 9 averaged A-weighted spectrograms |
+| Figure 7 | [figure_07](figures/figure_07) | Violin: 5 averaged A-weighted spectrograms |
+| Figure 8 | [figure_08](figures/figure_08) | Loudness, sone |
+| Figure 9 | [figure_09](figures/figure_09) | Sharpness, acum |
+| Figure 10 | [figure_10](figures/figure_10) | Roughness, asper |
+| Figure 11 | [figure_11](figures/figure_11) | Tonality, t.u. |
+| Figure 12 | [figure_12](figures/figure_12) | Fluctuation strength, vacil |
+| Figure 13 | [figure_13](figures/figure_13) | Zwicker and Fastl annoyance (PAZ) |
+| Figure 14 | [figure_14](figures/figure_14) | More annoyance (PAM) |
+| Figure 15 | [figure_15](figures/figure_15) | Di et al. annoyance (PAD) |
+| Figure 16 | [figure_16](figures/figure_16) | Three condition-level Pearson matrices and their input means |
+| Table I | [table_01](tables/table_01) | Original A-weighted OASPL, Drone 1 |
+| Table II | [table_02](tables/table_02) | Original A-weighted OASPL, Drone 2 |
+| Table III | [table_03](tables/table_03) | Original A-weighted OASPL, violin |
+| Table IV | [table_04](tables/table_04) | Normalized recordings: LZ − LA, Drone 1 |
+| Table V | [table_05](tables/table_05) | Normalized recordings: LZ − LA, Drone 2 |
+| Table VI | [table_06](tables/table_06) | Normalized recordings: LZ − LA, violin |
 
 The machine-readable index is [figure_table_index.csv](figure_table_index.csv).
 
@@ -73,16 +73,16 @@ Example in Python:
 import csv, gzip
 import numpy as np
 
-data = np.load("figure_05/3428_spectrogram.npz")
+data = np.load("figures/figure_05/3428_spectrogram.npz")
 time_s = data["time_s"]
 frequency_Hz = data["frequency_Hz"]
 level = data["spectrum_dBA_per_Hz"]  # shape: frequency × time
 
-with gzip.open("figure_08/drone1_trajectories.csv.gz", "rt", newline="") as f:
+with gzip.open("figures/figure_08/drone1_trajectories.csv.gz", "rt", newline="") as f:
     rows = list(csv.DictReader(f))
 ```
 
-Run `python scripts/replot.py --output reproduced_figures` to recreate the numerical plots using Python, NumPy and Matplotlib. This reproduces data content; the typography need not match the manuscript. MATLAB users can load `figure_08/plot_data.mat` (and the equivalent files in Figures 9–15) directly. Gzip CSV files can also be decompressed with standard archive software.
+Run `python scripts/replot.py --output reproduced_figures` to recreate the numerical plots using Python, NumPy and Matplotlib. This reproduces data content; the typography need not match the manuscript. MATLAB users can load `figures/figure_08/plot_data.mat` (and the equivalent files in Figures 9–15) directly. Gzip CSV files can also be decompressed with standard archive software.
 
 The original MATLAB methods depend on the original input tree and, for psychoacoustic calculations, the external Sound Quality Analysis Toolbox (SQAT). This package is a **numerical figure/table dataset**, not a full raw-recording or SQAT distribution. Source waveforms were used locally to audit tables and are not bundled. See [methods/README.md](methods/README.md).
 
