@@ -1,0 +1,103 @@
+{
+  "checks": [
+    {
+      "check": "Figure 5 matrix dimensions, time/frequency bounds and PSD-to-dB identity",
+      "status": "PASS",
+      "conditions": 9
+    },
+    {
+      "check": "Figure 6 matrix dimensions, time/frequency bounds and PSD-to-dB identity",
+      "status": "PASS",
+      "conditions": 9
+    },
+    {
+      "check": "Figure 7 matrix dimensions, time/frequency bounds and PSD-to-dB identity",
+      "status": "PASS",
+      "conditions": 5
+    },
+    {
+      "check": "Figure 8: 69 repeat curves reproduce 23 cached means and p95",
+      "status": "PASS",
+      "max_abs_curve_error": 0.0
+    },
+    {
+      "check": "Figure 9: 69 repeat curves reproduce 23 cached means and p95",
+      "status": "PASS",
+      "max_abs_curve_error": 0.0
+    },
+    {
+      "check": "Figure 10: 69 repeat curves reproduce 23 cached means and p95",
+      "status": "PASS",
+      "max_abs_curve_error": 0.0
+    },
+    {
+      "check": "Figure 11: 69 repeat curves reproduce 23 cached means and p95",
+      "status": "PASS",
+      "max_abs_curve_error": 0.0
+    },
+    {
+      "check": "Figure 12: 69 repeat curves reproduce 23 cached means and p95",
+      "status": "PASS",
+      "max_abs_curve_error": 0.0
+    },
+    {
+      "check": "Figure 13: 69 repeat curves reproduce 23 cached means and p95",
+      "status": "PASS",
+      "max_abs_curve_error": 0.0
+    },
+    {
+      "check": "Figure 14: 69 repeat curves reproduce 23 cached means and p95",
+      "status": "PASS",
+      "max_abs_curve_error": 0.0
+    },
+    {
+      "check": "Figure 15: 69 repeat curves reproduce 23 cached means and p95",
+      "status": "PASS",
+      "max_abs_curve_error": 0.0
+    },
+    {
+      "check": "Figure 16 drone1: Pearson matrix vs stored figure CData",
+      "status": "PASS",
+      "max_abs_error": 1.1102230246251565e-16
+    },
+    {
+      "check": "Figure 16 drone2: Pearson matrix vs stored figure CData",
+      "status": "PASS",
+      "max_abs_error": 3.3306690738754696e-16
+    },
+    {
+      "check": "Figure 16 violin: Pearson matrix vs stored figure CData",
+      "status": "PASS",
+      "max_abs_error": 1.1102230246251565e-16
+    }
+  ],
+  "table_audit": [
+    {
+      "category": "drone1",
+      "original_full_max_abs_diff_dB": 0.009072043151874709,
+      "delta_full_max_abs_diff_dB": 0.005356511088494997,
+      "delta_2_12_max_abs_diff_dB": 0.2806484144062287,
+      "delta_full_matches_rounded": 26,
+      "delta_2_12_matches_rounded": 4,
+      "n": 27
+    },
+    {
+      "category": "drone2",
+      "original_full_max_abs_diff_dB": 0.00909238119749034,
+      "delta_full_max_abs_diff_dB": 0.005163135338091873,
+      "delta_2_12_max_abs_diff_dB": 0.137597668935165,
+      "delta_full_matches_rounded": 25,
+      "delta_2_12_matches_rounded": 2,
+      "n": 27
+    },
+    {
+      "category": "violin",
+      "original_full_max_abs_diff_dB": 0.009231240527704188,
+      "delta_full_max_abs_diff_dB": 0.0047168863644379,
+      "delta_2_12_max_abs_diff_dB": 0.1034957994942215,
+      "delta_full_matches_rounded": 15,
+      "delta_2_12_matches_rounded": 2,
+      "n": 15
+    }
+  ]
+}

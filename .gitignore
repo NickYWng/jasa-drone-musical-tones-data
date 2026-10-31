@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+reproduced_figures/
+.DS_Store
+Thumbs.db
