@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Please cite the associated revision2 manuscript; see citation.bib. Update the citation when formal publication details are available."
+type: dataset
+title: "Numerical data for Comparative Psychoacoustic Analysis of Drone Noise and Musical Tones"
+authors:
+  - family-names: Wang
+    given-names: Yinuo
+  - family-names: Huang
+    given-names: Xun
+version: "revision2-data-v1"
+repository-code: "https://github.com/NickYWng/jasa-drone-musical-tones-data"
+abstract: "Numerical companion for Figures 5–16 and Tables I–VI of the revision2 manuscript dated 16 October 2026, submitted to JASA and not yet formally published."
+keywords:
+  - psychoacoustics
+  - propeller noise
+  - sound quality
+  - violin

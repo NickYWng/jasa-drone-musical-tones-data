@@ -1,0 +1,6 @@
+# Preserve exact bytes so SHA256SUMS remains valid on all platforms.
+* -text
+*.gz binary
+*.npz binary
+*.mat binary
+*.jpg binary
